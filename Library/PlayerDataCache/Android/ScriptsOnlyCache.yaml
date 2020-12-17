@@ -15,6 +15,12 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -26,6 +32,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/Shop.unity:
     - Class: 1
@@ -77,7 +84,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12954}
     - Class: 114
-      Script: {instanceID: 13762}
+      Script: {instanceID: 13760}
     - Class: 114
       Script: {instanceID: 14378}
     - Class: 115
@@ -152,11 +159,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13430}
     - Class: 114
-      Script: {instanceID: 13762}
+      Script: {instanceID: 13760}
     - Class: 114
       Script: {instanceID: 14378}
     - Class: 114
-      Script: {instanceID: 58912}
+      Script: {instanceID: 14400}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -227,11 +234,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13430}
     - Class: 114
-      Script: {instanceID: 13762}
+      Script: {instanceID: 13760}
     - Class: 114
       Script: {instanceID: 14378}
     - Class: 114
-      Script: {instanceID: 58912}
+      Script: {instanceID: 14400}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -273,6 +280,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -288,15 +297,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 11242}
+    - Class: 114
+      Script: {instanceID: 11244}
+    - Class: 114
       Script: {instanceID: 11270}
+    - Class: 114
+      Script: {instanceID: 11688}
     - Class: 114
       Script: {instanceID: 12282}
     - Class: 114
       Script: {instanceID: 12954}
     - Class: 114
-      Script: {instanceID: 13762}
+      Script: {instanceID: 13430}
+    - Class: 114
+      Script: {instanceID: 13760}
     - Class: 114
       Script: {instanceID: 14378}
+    - Class: 114
+      Script: {instanceID: 14400}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -306,6 +325,81 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/level 4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11242}
+    - Class: 114
+      Script: {instanceID: 11244}
+    - Class: 114
+      Script: {instanceID: 11270}
+    - Class: 114
+      Script: {instanceID: 11558}
+    - Class: 114
+      Script: {instanceID: 11688}
+    - Class: 114
+      Script: {instanceID: 12282}
+    - Class: 114
+      Script: {instanceID: 12954}
+    - Class: 114
+      Script: {instanceID: 13760}
+    - Class: 114
+      Script: {instanceID: 14378}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
@@ -363,7 +457,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12954}
     - Class: 114
-      Script: {instanceID: 13762}
+      Script: {instanceID: 13760}
     - Class: 114
       Script: {instanceID: 14378}
     - Class: 115
@@ -853,6 +947,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 684158ae1b28df14c350a388a0a72b2d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: money_player
+  - hash:
+      serializedVersion: 2
       Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -901,6 +1001,12 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: 4ad8b65f0e558bdee13a73c7d105a825
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: money
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -923,23 +1029,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 4ad8b65f0e558bdee13a73c7d105a825
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: money
-  - hash:
-      serializedVersion: 2
-      Hash: 684158ae1b28df14c350a388a0a72b2d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: money_player
   platform: 13
   scenePathNames:
   - Assets/Scenes/start.unity
   - Assets/Scenes/level 1.unity
   - Assets/Scenes/level 2.unity
   - Assets/Scenes/level 3.unity
+  - Assets/Scenes/level 4.unity
   - Assets/Scenes/Shop.unity
-  playerPath: D:/my game/android 1/game v 0.6.apk
+  playerPath: D:/my game/android 1/game v 1 open bet.apk
