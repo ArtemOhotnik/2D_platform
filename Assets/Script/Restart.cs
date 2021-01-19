@@ -21,6 +21,7 @@ public class Restart : MonoBehaviour
     {
         SceneManager.LoadScene("Start");
     }
+    
 
 
 
